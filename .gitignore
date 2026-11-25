@@ -10,3 +10,6 @@ wheels/
 .venv
 /.env
 /venv
+latest resume.pdf
+*.pdf
+

@@ -1,0 +1,28 @@
+# Sample Python file (saved as python.txt)
+
+def greet(name):
+    return f"Hello, {name}!"
+
+
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+
+def main():
+    print(greet("World"))
+
+    numbers = [1, 2, 3, 4, 5]
+    squares = [x ** 2 for x in numbers]
+    print("Squares:", squares)
+
+    print("5! =", factorial(5))
+
+    person = {"name": "Asha", "age": 25}
+    for key, value in person.items():
+        print(f"{key}: {value}")
+
+
+if __name__ == "__main__":
+    main()
